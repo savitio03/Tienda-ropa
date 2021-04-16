@@ -100,8 +100,8 @@ input:focus ~ .barra::before {
   background: linear-gradient(to right, #ffe000, #799f0c, #00416a);
   border: none;
   display: block;
-  width: 80%;
-  margin: 10px auto;
-  color: #ffff;
+  width: 30%;
+  margin: auto;
+  color: rgb(194, 25, 25);
   height: 40px;
 }
