@@ -15,3 +15,16 @@
 .color-final {
   background-color: #781f86;
 }
+
+.botones {
+  font-family: "Zen Dots", cursive;
+  background: #00416a;
+  background: -webkit-linear-gradient(to right, #b92b27, #1565c0);
+  background: linear-gradient(to right, #b92b27, #1565c0);
+  border: none;
+  display: block;
+  width: 50%;
+  margin: 10px auto;
+  color: #ffff;
+  height: 40px;
+}
