@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/estilos.css">
+     <link rel="stylesheet" href="css/prendas.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Zen+Dots&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+    <title>Savito's</title>
+  </head>
+  <body>
+    <!--Menú-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.php">
+     <img class="logotipo" src="imagenes/Logo.jpg" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Ropa de mujer
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Blusas</a></li>
+            <li><a class="dropdown-item" href="#">Pantalones</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Ropa de hombre
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Camisas</a></li>
+            <li><a class="dropdown-item" href="#">Pantalones</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Accesorios
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Hombre</a></li>
+            <li><a class="dropdown-item" href="#">Mujer</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tiendas físicas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">¿Quieres ser parte de nosotros?</a>
+        </li>
+        <li>
+        <a href="https://web.facebook.com/savio.romerocardenas.3"> <img class="icono-redes"  src="imagenes/redes/facebook.jpg" alt="facebook"></a>
+          <a href="https://www.instagram.com/sromero_03/"><img class="icono-redes"  src="imagenes/redes/instagram.jpg" alt="instagram"></a>
+          <a href="https://twitter.com/RomeroC03"><img class="icono-redes"  src="imagenes/redes/twitter.jpg" alt="twitter"></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--Carrusel-->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active contenedorCH">
+      <figure>
+      <img src="imagenes/slider/slider1.jpg" class="d-block w-100" alt="slider01">
+      <div class="capa">
+        <br>
+        <h2 style="font-family: 'PT Serif', serif; color:black">"The Best or Nothing"</h2>
+        <p style="font-family: 'PT Serif', serif; color:#ffffff" >Lo mejor en calidad al mejor precio</p>
+      </div>
+      </figure>
+    </div>
+    <div class="carousel-item">
+      <div class="contenedorCH">
+    <figure>
+      <img src="imagenes/slider/ropamujer.jpg" class="d-block w-100" alt="slider02">
+      <div class="capa">
+        <br>
+        <h2 style="font-family: 'PT Serif', serif; color:black">Nueva colección de verano</h2>
+        <p style="font-family: 'PT Serif', serif; color:#ffffff" >Lo mejor para ellas.</p>
+      </div>
+      </figure>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="contenedorCH">
+        <figure>
+            <img src="imagenes/slider/ropahombre.jpg" class="d-block w-100" alt="slider03">
+            <div class="capa">
+              <br>
+              <h2 style="font-family: 'PT Serif', serif; color:black">Colección pasada</h2>
+              <p style="font-family: 'PT Serif', serif; color:#ffffff" >La moda no pasa de moda.</p>
+            </div>
+        </figure>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="contenedorCH">
+        <figure>
+      <img src="imagenes/slider/accesorios.jpg" class="d-block w-100" alt="slider04">
+      <div class="capa">
+        <br>
+        <h2 style="font-family: 'PT Serif', serif; color:black">Accesorios</h2>
+        <p style="font-family: 'PT Serif', serif; color:#ffffff" >El complemento de tu outfit.</p>
+      </div>
+      </figure>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<!--Ropas-->
+<main>
+  <!--Ropas-->
+  <section class="separar">
+    <h2 class="text-center" style="font-family: 'Zen Dots', cursive;">Sección hombres</h2>
+    <div class="container contenedorCH">
+      <div class="row">
+        <div class="col-12 col-sm-6 text-center">
+          <figure>
+           <img class="img-fluid shadow-lg" src="imagenes/camisas/muestra.jpg" alt="Banner01">
+           <div class="capa">
+             <h3 style="font-family: 'Lobster', cursive;">Ver camisetas para hombre</h3>
+             <p style="font-family: 'Josefin Sans', sans-serif;">Las mejores camisetas de la colección de verano.</p>
+           </div>
+           </figure>
+           <h5 style="font-family: 'Dela Gothic One', cursive;">Camisas</h5>
+        </div>
+        <div class="col-12 col-sm-6 text-center">
+        <br><br>
+          <figure>
+           <img class="img-fluid shadow-lg" src="imagenes/pantalonH/muestra.jpg" alt="Banner02">
+           <div class="capa">
+             <h3 style="font-family: 'Lobster', cursive;">Ver los pantalones para hombre</h3>
+             <p style="font-family: 'Josefin Sans', sans-serif;">Llega con estilo a donde quiera que vayas.</p>
+           </div>
+           </figure>
+           <h5 style="font-family: 'Dela Gothic One', cursive;">Pantalones</h5>
+        </div>
+      </div>
+    </div>
+  </section class="separar">
+  <section>
+    <div class="container contenedorCH">
+      <h2 class="text-center" style="font-family: 'Zen Dots', cursive;">Sección Mujeres</h2>
+      <div class="row">
+        <div class="col-12 col-sm-6 text-center">
+          <figure>
+           <img class="img-fluid shadow-lg" src="imagenes/blusas/muestra.jpg" alt="Banner01">
+           <div class="capa">
+             <h3 style="font-family: 'Lobster', cursive;">Ver las blusas</h3>
+             <p style="font-family: 'Josefin Sans', sans-serif;">Con nuestras prendas serás la "potra" del barrio.</p>
+           </div>
+           </figure>
+           <h5 style="font-family: 'Dela Gothic One', cursive;">Blusas</h5>
+        </div>
+        <div class="col-12 col-sm-6 text-center">
+        <br><br>
+          <figure>
+            <img class="img-fluid shadow-lg" src="imagenes/pantalonM/muestra.jpg" alt="Banner02">
+            <div class="capa">
+              <h3 style="font-family: 'Lobster', cursive;">Ver pantalones</h3>
+              <p style="font-family: 'Josefin Sans', sans-serif;">¿Sabes lo que es una "Yegua"? Bueno, así quedarás, ¡REINA!</p>
+            </div>
+            </figure>
+           <h5 style="font-family: 'Dela Gothic One', cursive;">Pantalones</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section  class="separar">
+    <div class="container contenedorCH">
+      <div class="row">
+        <div class="col-12 col-sm-6 text-center">
+          <figure>
+           <img class="img-fluid shadow-lg " src="imagenes/deportivaH/muestra.jpg" alt="Banner03">
+           <div class="capa">
+             <h3 style="font-family: 'Lobster', cursive;">Ver productos</h3>
+             <p style="font-family: 'Josefin Sans', sans-serif;">A ejercitarse, esos músculos no saldrán solos.</p>
+           </div>
+             </figure>
+           <h5 style="font-family: 'Dela Gothic One', cursive;">Hombres</h5>
+        </div>
+        <div class="col-12 col-sm-6 text-center">
+            <br><br>
+          <figure>
+           <img class="img-fluid shadow-lg" src="imagenes/deportivaM/muestra.jpg" alt="Banner04">
+           <div class="capa">
+             <h3 style="font-family: 'Lobster', cursive;">Ver productos</h3>
+             <p style="font-family: 'Josefin Sans', sans-serif;">La hora de estar en forma es...¡AHORA!</p>
+           </div>
+             </figure>
+           <h5 style="font-family: 'Dela Gothic One', cursive;">Mujeres</h5>
+        </div>
+      </div>
+      <h2 class="text-center" style="font-family: 'Zen Dots', cursive;">Sección Deportiva</h2>
+    </div>
+  </section >
+  <section class="color-final separar">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6 text center ">
+      <a href="https://www.minsalud.gov.co/salud/Documents/observatorio_vih/documentos/prevencion/promocion_prevencion/riesgo_biol%C3%B3gico-bioseguridad/b_bioseguridad/BIOSEGURIDAD.pdf">
+        <img class="img-fluid shadow-lg"src="imagenes/concientizar.jpg" alt=""></a>
+        </div>
+        <div class="col-12 col-sm-6 text center ">
+          <h3>Covid-19</h3>
+          <br>
+          <p>
+            Esto aún no acaba. Manten las medidas de bioseguridad.
+          </p>
+          <p> Dando click en la imangen se te rediccionará a un documento con toda la información.
+            <br>
+            #QUEDATEENCASA
+        </p>
+        </div>
+      </div>
+    </div>
+      </div>
+  </section>
+</main>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
