@@ -28,3 +28,10 @@
   color: #ffff;
   height: 40px;
 }
+
+p.tiend {
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: "font-family: 'Zen Dots', cursive";
+}
