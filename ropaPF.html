@@ -15,14 +15,16 @@
     <!--Estilos Css-->
     <link rel="stylesheet" href="css/estilos.css" />
     <link rel="stylesheet" href="css/prendas.css" />
+    <link rel="stylesheet" href="css/ventas.css">
+    <script src="js/scripts.js"></script>
 
- <!--Fuentes-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Zen+Dots&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
+<!--Fuentes-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Zen+Dots&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
     <title>Savito's</title>
   </head>
   <body>
@@ -142,6 +144,48 @@
         </div>
       </div>
     </nav>
+    <div class="container">
+        <button id="check" class="pagar" onclick="pay()">Pagar Aquí</button>
+    </div>
+    <div class="contenido-pagina">
+      <div class="contenido">
+        <h3>Blusa manga corta</h3>
+        <img src="imagenes/blusas/blusa1.jpg" >
+        <h3>$25000</h3>
+        <button class="agregar" onclick="add('product-1',25000)">Agregar</button>
+      </div>
+      <div class="contenido">
+        <h3>Blusa negra</h3>
+        <img src="imagenes/blusas/blusa2.jpg" >
+        <h3>$30000</h3>
+        <button class="agregar" onclick="add('product-2',30000)">Agregar</button>
+      </div>
+      <div class="contenido">
+        <h3>Blusa azulita preciosa</h3>
+        <img src="imagenes/blusas/blusa3.jpg" >
+        <h3>$45000</h3>
+        <button class="agregar" onclick="add('product-3',45000)">Agregar</button>
+      </div>
+      <div class="contenido">
+        <h3>Blusa que el queda bien</h3>
+        <img src="imagenes/blusas/blusa4.jpg" >
+        <h3>$33000</h3>
+        <button class="agregar" onclick="add('product-4',33000)">Agregar</button>
+      </div>
+      <div class="contenido">
+        <h3>Blusa mangas hermosas</h3>
+        <img src="imagenes/blusas/blusa5.jpg" >
+        <h3>$30000</h3>
+        <button class="agregar" onclick="add('product-5',30000)">Agregar</button>
+      </div>
+      <div class="contenido">
+        <h3>Blusa manga corta</h3>
+        <img src="imagenes/blusas/blusa6.jpg" >
+        <h3>$35000</h3>
+        <button class="agregar"onclick="add('product-6',35000)" >Agregar</button>
+      </div>
+    </div>
+
         <!--footer-->
         <footer class="color-final separar">
           <div class="container">
