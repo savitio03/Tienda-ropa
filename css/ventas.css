@@ -1,0 +1,69 @@
+.contenido-pagina h3 {
+  font-family: "font-family: 'Zen Dots', cursive";
+  color: rgb(0, 0, 0);
+}
+
+.contenido-pagina {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 1px solid #ffffff;
+}
+.contenido.agregar {
+  align-items: center;
+  align-content: center;
+}
+
+.contenido {
+  margin: 25px;
+  padding: 2px 16px;
+}
+
+.contenido:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.contenido img {
+  width: 300px;
+}
+
+.agregar {
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+  transition-duration: 0.3s;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: 4px solid #4caf50;
+  border-radius: 15px;
+  padding: 1px 100px;
+  vertical-align: bottom;
+  font-family: "font-family: 'Zen Dots', cursive";
+}
+
+.agregar:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+.container {
+  margin: 20px;
+}
+
+.pagar {
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+  transition-duration: 0.3s;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: 4px solid #000000;
+  border-radius: 15px;
+  padding: 20px 100px;
+  vertical-align: bottom;
+}
+
+.pagar:hover {
+  background-color: #000dbd; /* Green */
+  color: white;
+}
